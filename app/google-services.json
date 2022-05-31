@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "78857922082",
+    "firebase_url": "https://doggo-java-default-rtdb.firebaseio.com",
+    "project_id": "doggo-java",
+    "storage_bucket": "doggo-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78857922082:android:f27bd0c21dd46dec8a4c7b",
+        "android_client_info": {
+          "package_name": "com.max.doggo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78857922082-jv18r1h53uvgv25ca4stojh79q111s86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxu-W7zLPRDa1ToojbBTLFnNrUJTn46dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78857922082-jv18r1h53uvgv25ca4stojh79q111s86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

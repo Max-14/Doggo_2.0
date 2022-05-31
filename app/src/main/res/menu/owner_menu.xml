@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/owner_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_darth_vader_profile"/>
+
+    <item
+        android:id="@+id/find_walker"
+        android:title="Find Walker"
+        android:icon="@drawable/ic_find_walker"/>
+
+    <item
+        android:id="@+id/view_walker"
+        android:title="Walkers"
+        android:icon="@drawable/ic_walker"/>
+
+    <item
+        android:id="@+id/add_animal"
+        android:title="My Animal"
+        android:icon="@drawable/ic_animal"/>
+
+</menu>

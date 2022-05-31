@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/bg_gradient.xml" value="0.16" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/curve_bg.xml" value="0.387" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/curved_button.xml" value="0.3215" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/curved_text.xml" value="0.3215" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/ic_find_walker.xml" value="0.242" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/selector.xml" value="0.242" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/drawable/splash_background.xml" value="0.387" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_choose_user.xml" value="0.33" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_login_walker.xml" value="0.2484375" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_add_animal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_find_walker.xml" value="0.21" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_home.xml" value="0.25" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_sign_up.xml" value="0.1875" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_view_walkers.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_accept_order.xml" value="0.25" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_sign_up.xml" value="0.1875" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_walk_history.xml" value="0.234375" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/owner_menu.xml" value="0.22" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/walker_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

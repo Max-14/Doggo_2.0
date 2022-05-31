@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Doggo</string>
+    <string name="app_welcome">Welcome to Doggo</string>
+    <string name="title_activity_owner_registration">Owner_Registration</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_app_name">Doggo</string>
+    <string name="title_activity_login">activity_login</string>
+    <!-- Strings used for button captions -->
+    <string name="button_login">Login</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_owner_sign_up">Sign Up As Owner</string>
+    <string name="button_walker_sign_up">Sign Up As Walker</string>
+    <string name="previous">Previous</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password">Reset</string>
+    <string name="choose">Who are you?</string>
+    <!-- Strings for attributes -->
+    <string name="Email">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="Telephone">Telephone</string>
+    <string name="Address">Address</string>
+    <string name="Name_user">Name</string>
+    <string name="Passport_number">Passport</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="breed">Breed</string>
+    <string name="Order_date">Date of order</string>
+    <string name="sign_out">Sign Out</string>
+    <!-- -->
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="owner">Owner</string>
+    <string name="walker">Walker</string>
+    <string name="my_animal">My Animal</string>
+    <string name="name_of_animal">Name Of Animal</string>
+    <!-- system warnings and confirmations -->
+    <string name="accept">Accept</string>
+    <string name="order_accepted">Your request has been accepted</string>
+    <string name="no_walkers">Unable to find available walkers.</string>
+    <string name="try_again">Please! Try again later.</string>
+    <string name="NoDescription">Null</string>
+</resources>

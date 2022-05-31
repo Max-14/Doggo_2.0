@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Owner_add_animal_Activity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/Bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/Ivory"
+        android:contentDescription="@string/NoDescription" />
+
+    <TextView
+        android:id="@+id/textView_breed"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="128dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/title_gender"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_gender" />
+
+    <TextView
+        android:id="@+id/textView_age"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="128dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/textView_name" />
+
+    <TextView
+        android:id="@+id/title_breed"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/breed"
+        app:layout_constraintBottom_toTopOf="@+id/textView_breed"
+        app:layout_constraintEnd_toEndOf="@+id/title_gender"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_gender" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/my_animal"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/Bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/animal_profile"
+        android:layout_width="180dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="100dp"
+        android:contentDescription="@string/owner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:srcCompat="@drawable/ic_animal" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/Bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/Gunmetal_grey"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/owner_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="180dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/name_of_animal"
+        app:layout_constraintBottom_toTopOf="@+id/textView_name"
+        app:layout_constraintEnd_toStartOf="@+id/title_gender"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/animal_profile"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/title_age"
+        app:layout_constraintEnd_toEndOf="@+id/title_name"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/title_name" />
+
+    <TextView
+        android:id="@+id/title_age"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/age"
+        app:layout_constraintBottom_toTopOf="@+id/textView_age"
+        app:layout_constraintEnd_toEndOf="@+id/textView_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_name" />
+
+    <TextView
+        android:id="@+id/title_gender"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animal_profile" />
+
+    <TextView
+        android:id="@+id/textView_gender"
+        android:layout_width="180dp"
+        android:layout_height="31dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/title_breed"
+        app:layout_constraintEnd_toEndOf="@+id/title_gender"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/title_gender"
+        app:layout_constraintTop_toBottomOf="@+id/title_gender" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
