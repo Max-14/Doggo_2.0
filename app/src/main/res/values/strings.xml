@@ -39,4 +39,6 @@
     <string name="no_walkers">Unable to find available walkers.</string>
     <string name="try_again">Please! Try again later.</string>
     <string name="NoDescription">Null</string>
+    <string name="view_walkers">View Walkers</string>
+    <string name="find_walker">Find walker</string>
 </resources>

@@ -15,7 +15,7 @@
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_login_walker.xml" value="0.2484375" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
-        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_add_animal.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_add_animal.xml" value="0.1" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_find_walker.xml" value="0.21" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_home.xml" value="0.25" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_owner_sign_up.xml" value="0.1875" />
@@ -23,7 +23,7 @@
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_accept_order.xml" value="0.25" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_home.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_sign_up.xml" value="0.1875" />
-        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_walk_history.xml" value="0.234375" />
+        <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/layout/activity_walker_walk_history.xml" value="0.2" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/owner_menu.xml" value="0.22" />
         <entry key="..\:/Users/Max/AndroidStudioProjects/Doggo/app/src/main/res/menu/walker_menu.xml" value="0.27447916666666666" />

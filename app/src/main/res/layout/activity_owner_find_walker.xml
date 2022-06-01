@@ -20,35 +20,33 @@
 
     </ImageView>
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView"
+    <Button
+        android:id="@+id/button_find_walker"
         android:layout_width="245dp"
         android:layout_height="49dp"
         android:gravity="center"
-        android:text="Find walker"
-        android:textSize="40sp"
+        android:text="@string/find_walker"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.868" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/Bottom_nav"
-        android:layout_width="0dp"
-        android:layout_height="85dp"
-        android:layout_marginBottom="4dp"
-        app:itemBackground="@color/Dusty_rose"
-        app:itemIconTint="@drawable/selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/Gunmetal_grey"
         app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/walker_menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:menu="@menu/owner_menu">
+        app:layout_constraintTop_toBottomOf="@id/imageView" >
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
